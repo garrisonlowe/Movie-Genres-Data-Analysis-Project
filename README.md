@@ -88,6 +88,7 @@ The best movies according to vote avg. return high profits and revenue.
 sns.regplot(data= movies_counted, x= 'vote_average', y= 'profit', line_kws= {'color': 'red'})
 ```
 From this figure, we can determine that there is only a small correlation (if any) between the vote average and movie profit. However, there is a lot more outliers in profit as you move up in vote_average, which is to be expected.
+
 ![Movie HQ1](https://github.com/user-attachments/assets/033755fc-fdaa-4770-96c8-884757ea2d3c)
 
 ```python
@@ -110,6 +111,7 @@ plt.figure(figsize= (20,10))
 plt.show()
 ```
 From this figure, we can determine that the Popularity and Revenue are highly correlated. With Revenue generally going up as Revenue goes up.
+
 ![Movie HQ2](https://github.com/user-attachments/assets/14210c40-581d-4d86-a602-4d4a5c0c5328)
 
 ### Hypothesis Question 3
@@ -122,6 +124,7 @@ plt.figure(figsize= (20,10))
 plt.show()
 ```
 From this figure, we can determine that the Budget and Profit are positively correlated. Movies with higher budgets tend to make higher profits as well.
+
 ![Movie HQ3](https://github.com/user-attachments/assets/c30ab0ef-d6f9-4c1e-98fe-a0f03a1ca314)
 
 ### Hypothesis Question 4
@@ -134,4 +137,5 @@ plt.figure(figsize= (20,10))
 plt.show()
 ```
 From this figure, we can determine that the Budget and Profit are slightly positively correlated. Movies with higher budgets tend to be more popular.
+
 ![Movie HQ4](https://github.com/user-attachments/assets/d6692c84-58c1-4bb1-b00d-8e3004fc6adf)
