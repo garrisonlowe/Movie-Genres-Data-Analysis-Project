@@ -96,6 +96,7 @@ From this figure, we can determine that there is only a small correlation (if an
 sns.regplot(data= movies_counted, x= 'vote_average', y= 'revenue', line_kws= {'color': 'red'})
 ```
 Again, there is only a small correlation between vote average and revenue with more high outliers as you move up in vote average.
+
 ![Movie HQ1 1](https://github.com/user-attachments/assets/8797840d-b2ba-462c-830f-3bfac3d2dd60)
 
 
